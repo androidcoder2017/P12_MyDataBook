@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a15056112.p12_mydatabook.AnniversaryFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello Anniversary"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/tv"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFragAnniversary"
+            android:layout_alignParentBottom="true"
+            android:text="Edit"/>
+
+</RelativeLayout>
